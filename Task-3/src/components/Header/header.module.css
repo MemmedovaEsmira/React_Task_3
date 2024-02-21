@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.header_logo{
+    font-weight: bold;
+    font-size: 32px;
+    color: #000;
+}
+.header_menu{
+    display: flex;
+    gap: 10px;
+}
+
+.header_menu_item--link{
+color: green;
+font-size: 16px;
+}
+.header_right{
+    display: flex;
+    gap: 20px;
+}
